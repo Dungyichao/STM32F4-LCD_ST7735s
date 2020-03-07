@@ -223,11 +223,17 @@ let's check whether the generated code are correct by clicking <b>Project</b> ta
 <img src="/Image/cubemx/project_view.JPG" height="50%" width="50%">
 </p>
 <br />
-Right click the <b>Application/User</b> 
+Now we are going to add the code so that we can communicate with the ST7735 LCD. Right click the <b>Application/User</b> 
 
 * Add new item.... --> Select <b>C File (.c) </b> --> Name: st7735  --> Copy paste the code (st7735.c) we provided in ST7735 folder.
 * Add new item.... --> Select <b>Header File (.h) </b> --> Name: st7735 --> Copy paste the code (st7735.h) we provided in ST7735 folder.
+* Add new item.... --> Select <b>C File (.c) </b> --> Name: fonts  --> Copy paste the code (fonts.c) we provided in ST7735 folder.
+* Add new item.... --> Select <b>Header File (.h) </b> --> Name: fonts --> Copy paste the code (fonts.h) we provided in ST7735 folder.
 
 
+Now we add something in the main.c file so that we can use st7735.c and st7735.h for our project.
+
+* Open <b>main.c</b> in Application/User folder --> add <b>#include "st7735.h"</b>
+* 123
 
 
