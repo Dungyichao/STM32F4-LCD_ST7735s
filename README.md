@@ -235,7 +235,7 @@ Now we add something in the main.c file so that we can use st7735.c and st7735.h
 
 * Open <b>main.c</b> in Application/User folder --> add the following code highlight with red square
 <p align="center">
-<img src="/Image/cubemx/add_code.JPG" height="70%" width="70%">
+<img src="/Image/cubemx/add_code.png" height="70%" width="70%">
 </p>
 <br />
 
