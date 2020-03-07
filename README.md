@@ -73,13 +73,12 @@ We want to display some string or color on the specific location of the LCD. We 
 <img src="/Image/lcd_ram.png" height="70%" width="70%">
 </p>
 
-### 2.3 &nbsp; Communication between STM32-Nucleo board and ST7735s LCD <br />
 Let's first take a look the back side of the LCD board in the following image. You only need to focus on the left side.
 <p align="center">
 <img src="/Image/lcd_back.jpg" height="50%" width="50%">
 </p>
 
-The following table shows each pinout and its function. <br />
+The following table shows each pinout of the LCD board and its function. <br />
 <p align="center">
 <table>
     <thead>
@@ -124,4 +123,9 @@ The following table shows each pinout and its function. <br />
     </tbody>
 </table>
 </p>
+
+### 2.3 &nbsp; Communication between STM32-Nucleo board and ST7735s LCD <br />
+
+
+
  
