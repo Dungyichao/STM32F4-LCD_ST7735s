@@ -41,7 +41,9 @@ In this tutorial, we will use SPI (Serial Peripheral Interface) to communicate w
 | MISO         | Master in Slave out. Slave sends command or data to Master. 
 | SS (CS)      | Slave select (or Chip select). If you have multiple slaves connectes to one master, you can use SS to communicate with the specified slave 
 | SCK (CLK)    | Clock. Because SPI is synchronous, it requires clock for sampling.    
-
+<p align="center">
+<img src="/Image/SPI.JPG" height="90%" width="90%">  
+</p>
 
 ### ST7735s LCD <br />
 
