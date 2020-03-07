@@ -16,6 +16,7 @@ Let's first take a look what are we going to achieve after this tutorial.<br />
  * Jumper wires (Male-Male, Male-Female, Female-Female)
  * Potentiometer (optional, only affect the dynamic value displaying)
  * USB Cable-A to Mini-B
+ * Breadboard
  
 **2. Documents**
  * STM32F411 User Manual [link](https://www.st.com/resource/en/datasheet/stm32f411re.pdf)
@@ -197,5 +198,9 @@ The result view will be the following
 <p align="center">
 <img src="/Image/cubemx/CubeMX_pin.JPG" height="100%" width="100%">
 </p>
+<br />
+On the top of the panel, click on <b>Project Manager</b>.<br /> * Enter Project Name. <br /> * Create a folder and set the Project Location to this folder. <br />For the Toolchain/IDE, select MDK-ARM --> Min Version select V5. <br /> * In the Code Generator (left panel), click Generate peripheral initialization as a pair of c/h files per peripheral. <br />
+* On the top of the panel, click on <b>GENERATE CODE</b>.
+* <b>Click Open Project</b>
 
  
