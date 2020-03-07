@@ -31,9 +31,10 @@ A series of Youtube tutorial on STM32-Nucleo is a good start if you never use th
 You can think of it as a tiny and simplify PC without monitor(output), keyboard(input), and mouse(input). The LCD acts as output and the Potentiometer acts as input in our tutorial. There is a big problem, how can this tiny PC communicate with the outside world? Some use wired or wireless. <br />
 | Wired/Wireless  | Example           |  
 | -------------   |:-------------:|  
-| Wired           | right-aligned |  
-| Wireless        | centered      |   
+| Wired           | SPI, I2C, UART, Ethernet |  
+| Wireless        | Wi-Fi, Bluetooth, Cellular      |   
 
+In this tutorial, we will use SPI to communicate with the output device ~ LCD.
 
 ### ST7735s LCD <br />
 
