@@ -239,12 +239,20 @@ Now we add something in the main.c file so that we can use st7735.c and st7735.h
 </p>
 <br />
 
-# 4. Connect our Hardware
+# 4. Connect Hardware and Download the Code to the Nucleo-64
+### 4.1 &nbsp; Connect hardware
 Please refer to the following image to connect those devices.
 <p align="center">
 <img src="/Image/hardware_connect.png" height="100%" width="100%">
 </p>
 <br />
+After you connect these devices, connect USB with the PC and Nucleo-64 board. Your PC should be able to detect the Nucleo board and the LED light near the Mini usb port should be steady red ligh. The LCD should be power on with white screen.
+
+### 4.2 &nbsp; Download code to the Nucleo-64
+
+* Click <b>Project</b> tab --> Rebuild all target files. It should be 0 Error and some Warning (it's fine). 
+* Click <b>Flash</b> tab --> Download. 
+* Do you see the LCD light become black and a string shows up. Cool !!!
 
 
 
