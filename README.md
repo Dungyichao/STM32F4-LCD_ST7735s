@@ -220,12 +220,14 @@ Before we get started, click <b>Flash</b> tab --> Configure flash tools <br />
 
 let's check whether the generated code are correct by clicking <b>Project</b> tab --> Rebuild all target files. It should be 0 Error and 0 Warning. In the Project, you should see all the file in the following image. 
 <p align="center">
-<img src="/Image/cubemx/project_view.JPG" height="70%" width="70%">
+<img src="/Image/cubemx/project_view.JPG" height="50%" width="50%">
 </p>
 <br />
 Right click the <b>Application/User</b> 
 
-* Add new item.... --> Select <b>C File (.c) </b> --> Name: st7735
-* Add new item.... --> Select <b>Header File (.h) </b> --> Name: st7735
+* Add new item.... --> Select <b>C File (.c) </b> --> Name: st7735  --> Copy paste the code (st7735.c) we provided in ST7735 folder.
+* Add new item.... --> Select <b>Header File (.h) </b> --> Name: st7735 --> Copy paste the code (st7735.h) we provided in ST7735 folder.
+
+
 
 
