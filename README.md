@@ -73,7 +73,7 @@ We want to display some string or color on the specific location of the LCD. We 
 <img src="/Image/lcd_ram.png" height="70%" width="70%">
 </p>
 
-Let's first take a look the back side of the LCD board in the following image. You only need to focus on the left side.
+Let's take a look the back side of the LCD board in the following image. You only need to focus on the left side.
 <p align="center">
 <img src="/Image/lcd_back.jpg" height="50%" width="50%">
 </p>
@@ -125,11 +125,42 @@ The following table shows each pinout of the LCD board and its function. <br />
 </p>
 
 ### 2.3 &nbsp; Communication between STM32-Nucleo board and ST7735s LCD <br />
-We will talk about how to connect these two devices by wires later. Let's see the protocol when communicating to the LCD board. First look at the graphic explanation below.<br />
+We will talk about how to connect these two devices by wires later. Let's see the protocol when communicating to the LCD board. First look at the graphic explanation below.<br /> (Please refer to the ST7735s datasheet page 36 ~ 51)
 
 <p align="center">
-<img src="/Image/st_lcd_comm.bmp" height="95%" width="95%">
+<img src="/Image/st_lcd_comm.bmp" height="100%" width="100%">
 </p>
 
+<p align="center">
+<table>
+    <thead>
+        <tr>
+            <th align="center">Connection Pin</th>
+            <th align="center">Explanation</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center">CS</td>
+         <td align="center">Only at the <b>falling edge</b> on CS (voltage become low) enables the SPI and indicates the start of data or command transmission. When the CS is high (voltage is high), the clock is ignored. </td>
+        </tr>
+        <tr>
+            <td align="center">Data or Command</td>
+            <td align="center">**Data:** You use the high voltage from the GPIO pin to tell the LCD board that you are transmitting the data. <br />  **Command:** You use the low voltage from the GPIO pin to tell the LCD board that you are transmitting the command. (Please refer to the ST7735s datasheet page 36 ~ 51)</td>
+        </tr>
+        <tr>
+            <td align="center">MOSI</td>
+            <td align="center">While sending a command, it's not necessary to send data. How many data right after the command is defined by the command. </td>
+        </tr>
+        <tr>
+            <td align="center">Clock</td>
+            <td align="center">MOSI data is sampled at the rising edge of clock </td>
+        </tr>
+    </tbody>
+</table>
+</p>
 
+You need to make GPIO low (pin connect to CS) and GPIO low (pin connect to DC or Data/Command) before sending command. While sending a command, it's not necessary to send data. How many data right after the command is defined by the command (file page 104 ~ 186)
+
+Before sending data, you need to make GPIO low (pin connect to CS) and GPIO high (pin connect to DC or Data/Command). In our code, our SPI transmit 8-bit data at a time, however, the color is defined in 16-bit, so you need to transfer the first 8 bit of the color and then the rest 8 bit.
  
