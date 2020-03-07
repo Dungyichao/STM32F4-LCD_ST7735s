@@ -125,7 +125,7 @@ The following table shows each pinout of the LCD board and its function. <br />
 </p>
 
 ### 2.3 &nbsp; Communication between STM32-Nucleo board and ST7735s LCD <br />
-We will talk about how to connect these two devices by wires later. Let's see the protocol when communicating to the LCD board. First look at the graphic explanation below.<br /> (Please refer to the ST7735s datasheet page 36 ~ 51)
+We will talk about how to connect these two devices by wires later. Let's see the protocol when communicating to the LCD board. First look at the graphic explanation below.<br /> (Please refer to the ST7735s datasheet page 36 ~ 51) <br />
 
 <p align="center">
 <img src="/Image/st_lcd_comm.bmp" height="100%" width="100%">
@@ -146,11 +146,11 @@ We will talk about how to connect these two devices by wires later. Let's see th
         </tr>
         <tr>
             <td align="center">Data or Command</td>
-            <td align="center">**Data:** You use the high voltage from the GPIO pin to tell the LCD board that you are transmitting the data. <br />  **Command:** You use the low voltage from the GPIO pin to tell the LCD board that you are transmitting the command. (Please refer to the ST7735s datasheet page 36 ~ 51)</td>
+            <td align="center"><b>Data:</b> You use the high voltage from the GPIO pin to tell the LCD board that you are transmitting the data. <br />  <b>Command:</b> You use the low voltage from the GPIO pin to tell the LCD board that you are transmitting the command. (Please refer to the ST7735s datasheet page 36 ~ 51)</td>
         </tr>
         <tr>
             <td align="center">MOSI</td>
-            <td align="center">While sending a command, it's not necessary to send data. How many data right after the command is defined by the command. </td>
+            <td align="center">While sending a command, it's not necessary to send data. How many data right after the command is defined by the command.(Please refer to the ST7735s datasheet page 104 ~ 186) <br /> In our code, our SPI transmit 8-bit data at a time, however, the color in our case is defined in 16-bit, so you need to transfer the first 8 bit of the color and then the rest 8 bit.</td>
         </tr>
         <tr>
             <td align="center">Clock</td>
@@ -160,7 +160,5 @@ We will talk about how to connect these two devices by wires later. Let's see th
 </table>
 </p>
 
-You need to make GPIO low (pin connect to CS) and GPIO low (pin connect to DC or Data/Command) before sending command. While sending a command, it's not necessary to send data. How many data right after the command is defined by the command (file page 104 ~ 186)
 
-Before sending data, you need to make GPIO low (pin connect to CS) and GPIO high (pin connect to DC or Data/Command). In our code, our SPI transmit 8-bit data at a time, however, the color is defined in 16-bit, so you need to transfer the first 8 bit of the color and then the rest 8 bit.
  
