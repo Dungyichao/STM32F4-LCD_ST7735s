@@ -35,7 +35,7 @@ You can think of it as a tiny and simplify PC without monitor(output), keyboard(
 | Wired           | SPI, I2C, UART, Ethernet |  
 | Wireless        | Wi-Fi, Bluetooth, Cellular |   
 
-In this tutorial, we will use SPI (Serial Peripheral Interface) to communicate with the output device ~ LCD. We call our Nucleo board as master and the LCD as slave because we are sending order and command to the LCD. Sparkfun has a great tutorial website about SPI ([link](https://learn.sparkfun.com/tutorials/serial-peripheral-interface-spi/all)). The image in the following shows the relationship and connection between master and slave.(image from Sparkfun) <br /> 
+In this tutorial, we will use SPI (Serial Peripheral Interface) to communicate with the output device ~ LCD. We call our Nucleo board as master and the LCD as slave because we are sending order and command to the LCD. Sparkfun has a great tutorial website about SPI ([link](https://learn.sparkfun.com/tutorials/serial-peripheral-interface-spi/all)). The image in the following shows the relationship and connection between master and slave.(image from Sparkfun with some modification to fit our case) <br /> 
 
 <p align="center">
 <img src="/Image/SPI.JPG" height="70%" width="70%">  
