@@ -159,5 +159,8 @@ We will talk about how to connect these two devices by wires later. Let's see th
 </table>
 </p>
 
+<br />
 
+# 3. Configure Pins and Code
+In the following, we will first use CubeMX ([link](https://www.st.com/en/development-tools/stm32cubemx.html)) to configure SPI and ADC (optional) on the STM32-Nucleo board and then generate code for keil µVision IDE v5 ([link](http://www2.keil.com/mdk5/uvision/)). Secondly, copy paste the code from the program we provided (with some explanation of the code). Finally, we will test the code on the hardware.     
  
