@@ -84,42 +84,42 @@ The following table shows each pinout and its function. <br />
 <table>
     <thead>
         <tr>
-            <th align="center">Pinout on LCD</th>
+            <th align="center">Pinout on LCD  </th>
             <th align="center">Function</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td align="center">VCC</td>
-            <td align="center">Power 3.3V ~ 5V</td>
+            <td align="left">Power 3.3V ~ 5V</td>
         </tr>
         <tr>
             <td align="center">GND</td>
-            <td align="center">Connect to ground</td>
+            <td align="left">Connect to ground</td>
         </tr>
         <tr>
             <td align="center">NC</td>
-            <td align="center">No need to connect</td>
+            <td align="left">No need to connect</td>
         </tr>
         <tr>
             <td align="center">CLK</td>
-            <td align="center">Clock. Also call SCK </td>
+            <td align="left">Clock. Also call SCK </td>
         </tr>
         <tr>
             <td align="center">SDA</td>
-            <td align="center">MOSI for receiving data from the master</td>
+            <td align="left">MOSI for receiving data from the master</td>
         </tr>
         <tr>
             <td align="center">RS</td>
-            <td align="center">Data/Command selection. (some LCD board calls it DC or D/C). When applying high voltage meaning sending data while applying low voltage meaning sending command.</td>
+            <td align="left">Data/Command selection. (some LCD board calls it DC or D/C). <br /> When applying high voltage meaning sending data while applying low voltage meaning sending command.</td>
         </tr>
         <tr>
             <td align="center">RST</td>
-            <td align="center">Reset (reset at low level)</td>
+            <td align="left">Reset (reset at low level)</td>
         </tr>
         <tr>
             <td align="center">CS</td>
-            <td align="center">Chip selection (some LCD calls it SS)</td>
+            <td align="left">Chip selection (some LCD calls it SS)</td>
         </tr>
     </tbody>
 </table>
