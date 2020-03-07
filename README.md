@@ -63,7 +63,7 @@ Some basic term of SPI and their function are shown in the below table. <br />
 | -------------|------------- 
 | MOSI         | Master out Slave in. Master sends command or data to Slave.  
 | MISO         | Master in Slave out. Slave sends command or data to Master. <br /> We don't use this in our case.
-| SS (CS)      | Slave select (or Chip select). If you have multiple slaves <br /> connectes to one master, you can use SS to communicate with the specified slave 
+| SS (CS)      | Slave select (or Chip select). If you have multiple slaves <br /> connectes to one master, you can use SS to communicate with <br /> the specified slave. Eventhough we only have one slave (LCD), <br /> we still need to use this Slave select to let the LCD knows <br /> we want to talk to him now.
 | SCK (CLK)    | Clock. Because SPI is synchronous, it requires clock for sampling.    
 
 
