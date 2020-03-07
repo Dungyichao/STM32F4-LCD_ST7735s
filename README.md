@@ -74,9 +74,54 @@ We want to display some string or color on the specific location of the LCD. We 
 </p>
 
 ### 2.3 &nbsp; Communication between STM32-Nucleo board and ST7735s LCD <br />
-Let's first take a look the back side of the LCD board in the following image.
+Let's first take a look the back side of the LCD board in the following image. You only need to focus on the left side.
 <p align="center">
-<img src="/Image/lcd_back.jpg" height="70%" width="70%">
+<img src="/Image/lcd_back.jpg" height="50%" width="50%">
 </p>
 
+The following table shows each pinout and its function. <br />
+<p align="center">
+<table>
+    <thead>
+        <tr>
+            <th align="center">Pinout on LCD</th>
+            <th align="center">Function</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center">VCC</td>
+            <td align="center">Power 3.3V ~ 5V</td>
+        </tr>
+        <tr>
+            <td align="center">GND</td>
+            <td align="center">Connect to ground</td>
+        </tr>
+        <tr>
+            <td align="center">NC</td>
+            <td align="center">No need to connect</td>
+        </tr>
+        <tr>
+            <td align="center">CLK</td>
+            <td align="center">Clock. Also call SCK </td>
+        </tr>
+        <tr>
+            <td align="center">SDA</td>
+            <td align="center">MOSI for receiving data from the master</td>
+        </tr>
+        <tr>
+            <td align="center">RS</td>
+            <td align="center">Data/Command selection. (some LCD board calls it DC or D/C). When applying high voltage meaning sending data while applying low voltage meaning sending command.</td>
+        </tr>
+        <tr>
+            <td align="center">RST</td>
+            <td align="center">Reset (reset at low level)</td>
+        </tr>
+        <tr>
+            <td align="center">CS</td>
+            <td align="center">Chip selection (some LCD calls it SS)</td>
+        </tr>
+    </tbody>
+</table>
+</p>
  
