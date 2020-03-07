@@ -220,7 +220,7 @@ Before we get started, click <b>Flash</b> tab --> Configure flash tools <br />
 
 let's check whether the generated code are correct by clicking <b>Project</b> tab --> Rebuild all target files. It should be 0 Error and 0 Warning. In the Project, you should see all the file in the following image. 
 <p align="center">
-<img src="/Image/cubemx/project_view_pin.JPG" height="70%" width="70%">
+<img src="/Image/cubemx/project_view.JPG" height="70%" width="70%">
 </p>
 <br />
 Right click the <b>Application/User</b> 
