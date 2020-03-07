@@ -1,5 +1,5 @@
 # How to Display Color and Character on LCD Using Microcontroller board
-This tutorial shows you how to display string, color and dynamic value on LCD with STM32F4 development board from ground up. It will also show you how to read the technical datasheet of LCD.<br />
+This tutorial shows you how to display string, color and dynamic value on LCD with STM32-Nucleo development board from ground up. It will also show you how to read the technical datasheet of LCD.<br />
 
 # 1. What is the Goal and what you need to have <br />
 Let's first take a look what are we going to achieve after this tutorial.<br />
@@ -74,5 +74,9 @@ We want to display some string or color on the specific location of the LCD. We 
 </p>
 
 ### 2.3 &nbsp; Communication between STM32-Nucleo board and ST7735s LCD <br />
+Let's first take a look the back side of the LCD board in the following image.
+<p align="center">
+<img src="/Image/lcd_back.JPG" height="70%" width="70%">
+</p>
 
  
