@@ -14,7 +14,7 @@ Let's first take a look what are we going to achieve after this tutorial.<br />
  * STM32F411RE Nucleo 64
  * ST7735s 1.8" TFT LCD 128 X 160 (SKU:MAR1801)
  * Jumper wires (Male-Male, Male-Female, Female-Female)
- * Potentiometer
+ * Potentiometer (optional, only affect the dynamic value displaying)
  * USB Cable-A to Mini-B
  
 **2. Documents**
