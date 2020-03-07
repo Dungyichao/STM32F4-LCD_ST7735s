@@ -199,14 +199,15 @@ The result view will be the following
 <img src="/Image/cubemx/CubeMX_pin.JPG" height="100%" width="100%">
 </p>
 <br />
-<p>
+
 On the top of the panel, click on <b>Project Manager</b>. 
+
   * Enter Project Name.   
   * Create a folder and set the Project Location to this folder. <br />For the Toolchain/IDE, select MDK-ARM --> Min Version select V5. 
   * In the Code Generator (left panel), click Generate peripheral initialization as a pair of c/h files per peripheral.  
   * On the top of the panel, click on <b>GENERATE CODE</b>.  
   * <b>Click Open Project</b>
-</p>
+
 
 * Item 1
 * Item 2
