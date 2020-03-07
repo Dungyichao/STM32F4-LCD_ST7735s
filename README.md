@@ -29,14 +29,25 @@ You are ready to go!! <br />
 A series of Youtube tutorial on STM32-Nucleo is a good start if you never use this. : [Youtube](https://youtu.be/FAv0LO5E2TM)   (Include CubeMX and Keil 5) <br />
 
 You can think of it as a tiny and simplify PC without monitor(output), keyboard(input), and mouse(input). The LCD acts as output and the Potentiometer acts as input in our tutorial. There is a big problem, how can this tiny PC communicate with the outside world (such as monitor or keyboard)? Some use wired or wireless. <br />
-<p align="center">
- 
-| Wired/Wireless  | Example |  
-| -------------   |:-------------:|  
-| Wired           | SPI, I2C, UART, Ethernet |  
-| Wireless        | Wi-Fi, Bluetooth, Cellular |   
 
-</p>
+<p align="center"></p>
+<table>
+    <thead>
+        <tr>
+            <th align="center">Wired/Wireless</th>
+            <th align="center">Example</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center">SPI, I2C, UART, Ethernet</td>
+            <td align="center">Wi-Fi, Bluetooth, Cellular</td>
+        </tr>
+    </tbody>
+</table>
+<p></p>
+
+
 In this tutorial, we will use SPI (Serial Peripheral Interface) to communicate with the output device ~ LCD. We call our Nucleo board as master and the LCD as slave because we are sending order and command to the LCD. Sparkfun has a great tutorial website about SPI ([link](https://learn.sparkfun.com/tutorials/serial-peripheral-interface-spi/all)). The image in the following shows the relationship and connection between master and slave.(image from Sparkfun with some modification to fit our case) <br /> 
 
 <p align="center">
@@ -47,8 +58,8 @@ Some basic term of SPI and their function are shown in the below table. <br />
 | Terminology  | Function   
 | -------------|------------- 
 | MOSI         | Master out Slave in. Master sends command or data to Slave.  
-| MISO         | Master in Slave out. Slave sends command or data to Master. We don't use this in our case.
-| SS (CS)      | Slave select (or Chip select). If you have multiple slaves connectes to one master, you can use SS to communicate with the specified slave 
+| MISO         | Master in Slave out. Slave sends command or data to Master. <br /> We don't use this in our case.
+| SS (CS)      | Slave select (or Chip select). If you have multiple slaves <br /> connectes to one master, you can use SS to communicate with the specified slave 
 | SCK (CLK)    | Clock. Because SPI is synchronous, it requires clock for sampling.    
 
 
