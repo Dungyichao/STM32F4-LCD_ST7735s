@@ -233,12 +233,13 @@ Now we are going to add the code so that we can communicate with the ST7735 LCD.
 
 Now we add something in the main.c file so that we can use st7735.c and st7735.h for our project.
 
-* Open <b>main.c</b> in Application/User folder --> add the following code highlight with red square
+* Open <b>main.c</b> in Application/User folder --> add the following code highlight with red square. These code will be enough for testing.
 <p align="center">
 <img src="/Image/cubemx/add_code.png" height="70%" width="70%">
 </p>
 <br />
 
+# 4. Connect our Hardware
 
 
 
