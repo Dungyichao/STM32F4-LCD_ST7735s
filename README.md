@@ -163,7 +163,7 @@ We will talk about how to connect these two devices by wires later. Let's see th
 <br />
 
 # 3. Configure Pins and Code
-In the following, we will first use CubeMX ([link](https://www.st.com/en/development-tools/stm32cubemx.html)) to configure SPI and ADC (optional) on the STM32-Nucleo board and then generate code for keil µVision IDE v5 ([link](http://www2.keil.com/mdk5/uvision/)). Secondly, copy paste the code from the program we provided (with some explanation of the code). Finally, we will test the code on the hardware. <br />    
+In the following, we will first use CubeMX ([link](https://www.st.com/en/development-tools/stm32cubemx.html)) to configure SPI and ADC (optional) on the STM32-Nucleo board and then generate code for keil µVision IDE v5 ([link](http://www2.keil.com/mdk5/uvision/)). Secondly, copy paste the code from the program we provided. Finally, we will test the code on the hardware. <br />    
 
 ### 3.1 &nbsp; Configure Pins on CubeMX
 Click <b>File</b> --> <b>New Project</b> --> In the search, key in your board model (STM32f411RE in our case) --> Click on the NUCLEO-F411RE --> Double click the item --> Click <b>Yes</b> to initialize all peripherals with their default Mode. --> Clear all Pinout. <br />    
@@ -235,7 +235,7 @@ Now we add something in the main.c file so that we can use st7735.c and st7735.h
 
 * Open <b>main.c</b> in Application/User folder --> add the following code highlight with red square. These code will be enough for testing.
 <p align="center">
-<img src="/Image/cubemx/add_code.png" height="70%" width="70%">
+<img src="/Image/cubemx/add_code.png" height="60%" width="60%">
 </p>
 <br />
 
