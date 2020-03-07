@@ -208,9 +208,9 @@ On the top of the panel, click on <b>Project Manager</b>.
   * On the top of the panel, click on <b>GENERATE CODE</b>.  
   * <b>Click Open Project</b>
 
+<br />
+Now the keil uvision IDE would open up itself with you project in it. 
 
-* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
- 
+### 3.2 &nbsp; Start Coding
+
+
