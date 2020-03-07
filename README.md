@@ -207,6 +207,7 @@ On the top of the panel, click on <b>Project Manager</b>.
   * On the top of the panel, click on <b>GENERATE CODE</b>.  
   * <b>Click Open Project</b>
 </p>
+
 * Item 1
 * Item 2
   * Item 2a
