@@ -7,7 +7,9 @@ Let's first take a look what are we going to achieve after this tutorial.<br />
 <img src="/Image/Goal.gif" height="80%" width="80%"> 
 </p>  
 <br />
+
 ## Hardware and Documents you need to have <br />
+
 1. Hardware
  * STM32F411RE Nucloe 64
  * ST7735s 1.8" TFT LCD 128 X 160 (SKU:MAR1801)
