@@ -15,6 +15,7 @@ Let's first take a look what are we going to achieve after this tutorial.<br />
  * ST7735s 1.8" TFT LCD 128 X 160 (SKU:MAR1801)
  * Jumper wires (Male-Male, Male-Female, Female-Female)
  * Potentiometer
+ * USB Cable-A to Mini-B
  
 **2. Documents**
  * STM32F411 User Manual [link](https://www.st.com/resource/en/datasheet/stm32f411re.pdf)
@@ -23,6 +24,11 @@ Let's first take a look what are we going to achieve after this tutorial.<br />
 You are ready to go!! <br />
 
 # Basic Knowledge <br />
+
+### STM32F4 board <br />
+
+### ST7735s LCD <br />
+
 
 
 
