@@ -25,7 +25,9 @@ You are ready to go!! <br />
 
 # Basic Knowledge <br />
 
-### STM32F4 board <br />
+### STM32-Nucleo board <br />
+A good series of Youtube tutorial on STM32-Nucleo is a good start if you never use this. ([Youtube link](https://youtu.be/FAv0LO5E2TM))<br />
+
 
 ### ST7735s LCD <br />
 
