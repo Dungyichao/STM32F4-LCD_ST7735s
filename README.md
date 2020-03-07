@@ -166,9 +166,6 @@ In the following, we will first use CubeMX ([link](https://www.st.com/en/develop
 
 ### 3.1 &nbsp; Configure Pins on CubeMX
 Click <b>File</b> --> <b>New Project</b> --> In the search, key in your board model (STM32f411RE in our case) --> Click on the NUCLEO-F411RE --> Double click the item --> Click <b>Yes</b> to initialize all peripherals with their default Mode. --> Clear all Pinout. <br />    
-<p align="center">
-<img src="/Image/cubemx/CubeMX_pin.JPG" height="100%" width="100%">
-</p>
 <br />   
 
 <p align="center">
@@ -182,7 +179,7 @@ Click <b>File</b> --> <b>New Project</b> --> In the search, key in your board mo
     <tbody>
         <tr>
             <td align="center">SPI</td>
-         <td align="left">On the left panel, click <b>Connectivity</b> --> SPI1 --> Select Mode : Transmit Only Master --> Prescaler(for Baud Rate): 32 <br />  On the Pinout view, we will change the pin. <br /> Click on PB5 --> Select SPI1_MOSI. <br /> Click on PB3 --> Select SPI1_SCK. </td>
+         <td align="left">On the left panel, click <b>Connectivity</b> --> SPI1 --> Select Mode : Transmit Only Master --> Prescaler(for Baud Rate): 32. <br />  On the Pinout view, we will change the pin. <br /> Click on PB5 --> Select SPI1_MOSI. <br /> Click on PB3 --> Select SPI1_SCK. </td>
         </tr>
         <tr>
             <td align="center">ADC (Optional)</td>
@@ -190,11 +187,15 @@ Click <b>File</b> --> <b>New Project</b> --> In the search, key in your board mo
         </tr>
         <tr>
             <td align="center">GPIO</td>
-            <td align="left">The following will set the pins to <b>GPIO_Output</b> </td>
+            <td align="left">The following will set the pins in Pinout view to <b>GPIO_Output</b> <br /> <b>CS: </b> Click PB15 --> Select GPIO_Output --> Right click to enter user label: LCD_CS <br /> <b>RS: </b> Click PB14 --> Select GPIO_Output --> Right click to enter user label: LCD_RS <br /> <b>RST: </b> Click PB12 --> Select GPIO_Output --> Right click to enter user label: LCD_RST  </td>
         </tr>
     </tbody>
 </table>
 </p>
-
+<br />
+The result view will be the following
+<p align="center">
+<img src="/Image/cubemx/CubeMX_pin.JPG" height="100%" width="100%">
+</p>
 
  
