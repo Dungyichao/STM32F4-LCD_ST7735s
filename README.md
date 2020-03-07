@@ -128,7 +128,7 @@ The following table shows each pinout of the LCD board and its function. <br />
 We will talk about how to connect these two devices by wires later. Let's see the protocol when communicating to the LCD board. First look at the graphic explanation below.<br />
 
 <p align="center">
-<img src="/Image/st_lcd_comm.bmp" height="50%" width="50%">
+<img src="/Image/st_lcd_comm.bmp" height="95%" width="95%">
 </p>
 
 
