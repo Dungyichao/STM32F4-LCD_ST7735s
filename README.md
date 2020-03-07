@@ -76,7 +76,7 @@ We want to display some string or color on the specific location of the LCD. We 
 ### 2.3 &nbsp; Communication between STM32-Nucleo board and ST7735s LCD <br />
 Let's first take a look the back side of the LCD board in the following image.
 <p align="center">
-<img src="/Image/lcd_back.JPG" height="70%" width="70%">
+<img src="/Image/lcd_back.jpg" height="70%" width="70%">
 </p>
 
  
