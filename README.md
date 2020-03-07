@@ -165,9 +165,36 @@ We will talk about how to connect these two devices by wires later. Let's see th
 In the following, we will first use CubeMX ([link](https://www.st.com/en/development-tools/stm32cubemx.html)) to configure SPI and ADC (optional) on the STM32-Nucleo board and then generate code for keil µVision IDE v5 ([link](http://www2.keil.com/mdk5/uvision/)). Secondly, copy paste the code from the program we provided (with some explanation of the code). Finally, we will test the code on the hardware. <br />    
 
 ### 3.1 &nbsp; Configure Pins on CubeMX
-Click <b>File</b> --> <b>New Project</b> --> In the search, key in your board model (STM32f411RE in our case) --> Click on the NUCLEO-F411RE --> Double click the item --> Click <b>Yes</b> to initialize all peripherals with their default Mode.  <br />    
+Click <b>File</b> --> <b>New Project</b> --> In the search, key in your board model (STM32f411RE in our case) --> Click on the NUCLEO-F411RE --> Double click the item --> Click <b>Yes</b> to initialize all peripherals with their default Mode. --> Clear all Pinout. <br />    
 <p align="center">
 <img src="/Image/cubemx/CubeMX_pin.JPG" height="100%" width="100%">
 </p>
+<br />   
+
+<p align="center">
+<table>
+    <thead>
+        <tr>
+            <th align="center">Categories</th>
+            <th align="center">Configure</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center">SPI</td>
+         <td align="left">On the left panel, click <b>Connectivity</b> --> SPI1 --> Select Mode : Transmit Only Master --> Prescaler(for Baud Rate): 32 <br />  On the Pinout view, we will change the pin. <br /> Click on PB5 --> Select SPI1_MOSI. <br /> Click on PB3 --> Select SPI1_SCK. </td>
+        </tr>
+        <tr>
+            <td align="center">ADC (Optional)</td>
+            <td align="left">On the left panel, click <b>Analog</b> --> ADC1 --> Select Mode: IN4. </td>
+        </tr>
+        <tr>
+            <td align="center">GPIO</td>
+            <td align="left">The following will set the pins to <b>GPIO_Output</b> </td>
+        </tr>
+    </tbody>
+</table>
+</p>
+
 
  
