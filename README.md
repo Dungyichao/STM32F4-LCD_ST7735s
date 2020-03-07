@@ -207,4 +207,6 @@ On the top of the panel, click on <b>Project Manager</b>.
   * On the top of the panel, click on <b>GENERATE CODE</b>.  
   * <b>Click Open Project</b>
 </p>
+* STM32F411RE Nucleo 64
+ * ST7735s 1.8" TFT LCD 128 X 160 (SKU:MAR1801)
  
