@@ -8,7 +8,7 @@ Let's first take a look what are we going to achieve after this tutorial.<br />
 </p>  
 <br />
 
-## Hardware and Documents you need to have <br />
+### Hardware and Documents you need to have <br />
 
 1. Hardware
  * STM32F411RE Nucloe 64
@@ -16,3 +16,5 @@ Let's first take a look what are we going to achieve after this tutorial.<br />
  * Jumper wires (Male-Male, Male-Female, Female-Female)
  * Potentiometer
 2.Documents
+ * STM32F411 User Manual [link](https://www.st.com/resource/en/datasheet/stm32f411re.pdf)
+ * Sitronix ST7735s Datasheet [link](http://www.lcdwiki.com/res/MAR1801/ST7735S_V1.1_20111121.pdf)
