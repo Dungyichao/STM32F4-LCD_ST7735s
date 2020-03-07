@@ -167,7 +167,7 @@ In the following, we will first use CubeMX ([link](https://www.st.com/en/develop
 ### 3.1 &nbsp; Configure Pins on CubeMX
 Click <b>File</b> --> <b>New Project</b> --> In the search, key in your board model (STM32f411RE in our case) --> Click on the NUCLEO-F411RE --> Double click the item --> Click <b>Yes</b> to initialize all peripherals with their default Mode.  <br />    
 <p align="center">
-<img src="/Image/cubemx/CubeMX_pin.jpg" height="100%" width="100%">
+<img src="/Image/cubemx/CubeMX_pin.JPG" height="100%" width="100%">
 </p>
 
  
