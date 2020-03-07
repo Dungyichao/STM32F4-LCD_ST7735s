@@ -27,7 +27,12 @@ You are ready to go!! <br />
 
 ### STM32-Nucleo board <br />
 A series of Youtube tutorial on STM32-Nucleo is a good start if you never use this. ([Youtube link](https://youtu.be/FAv0LO5E2TM))<br />
-You can think of it as a tiny and simplify PC without monitor(output), keyboard(input), and mouse(input). The LCD acts as output and the Potentiometer acts as input in our tutorial. There is a big problem, how can this tiny PC communicate with the outside world? 
+
+You can think of it as a tiny and simplify PC without monitor(output), keyboard(input), and mouse(input). The LCD acts as output and the Potentiometer acts as input in our tutorial. There is a big problem, how can this tiny PC communicate with the outside world? Some use wired or wireless. <br />
+| Wired/Wireless  | Example           |  
+| -------------   |:-------------:|  
+| Wired           | right-aligned |  
+| Wireless        | centered      |   
 
 
 ### ST7735s LCD <br />
