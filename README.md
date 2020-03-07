@@ -212,5 +212,11 @@ On the top of the panel, click on <b>Project Manager</b>.
 Now the keil uvision IDE would open up itself with you project in it. 
 
 ### 3.2 &nbsp; Start Coding
+Before we get started, click <b>Flash</b> tab --> Configure flash tools <br />
 
+* C/C++ tab: check <b>C99 Mode</b>
+* C/C++ tab: Include Paths --> New (Insert) --> click the MDK-ARM folder --> OK
+* Debug tab: On the upper right side --> Use: --> Select ST-Link Debugger --> Settings --> Flash Download tab --> Check <b>Reset and Run</b>
+
+let's check whether the generated code are correct by clicking <b>Project</b> tab --> Rebuild all target files. It should be 0 Error and 0 Warning. 
 
