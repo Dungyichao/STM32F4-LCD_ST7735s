@@ -1,7 +1,7 @@
 # How to Display Color and Character on LCD Using Microcontroller board
 This tutorial shows you how to display string, color and dynamic value on LCD with STM32F4 development board from ground up. It will also show you how to read the technical datasheet of LCD.<br />
 
-# What is the Goal and what you need to have <br />
+# 1. What is the Goal and what you need to have <br />
 Let's first take a look what are we going to achieve after this tutorial.<br />
 <p align="center">
 <img src="/Image/Goal.gif" height="80%" width="80%"> 
@@ -23,9 +23,9 @@ Let's first take a look what are we going to achieve after this tutorial.<br />
  
 You are ready to go!! <br />
 
-# Basic Knowledge <br />
+# 2. Basic Knowledge <br />
 
-### STM32-Nucleo board <br />
+### 2.1 STM32-Nucleo board <br />
 A series of Youtube tutorial on STM32-Nucleo is a good start if you never use this. : [Youtube](https://youtu.be/FAv0LO5E2TM)   (Include CubeMX and Keil 5) <br />
 
 You can think of it as a tiny and simplify PC without monitor(output), keyboard(input), and mouse(input). The LCD acts as output and the Potentiometer acts as input in our tutorial. There is a big problem, how can this tiny PC communicate with the outside world (such as monitor or keyboard)? Some use wired or wireless. <br />
@@ -67,12 +67,12 @@ Some basic term of SPI and their function are shown in the below table. <br />
 | SCK (CLK)    | Clock. Because SPI is synchronous, it requires clock for sampling.    
 
 
-### ST7735s LCD <br />
+### 2.2 ST7735s LCD <br />
 We want to display some string or color on the specific location of the LCD. We can achieve this by sending data to the specific address of RAM (Memory) in the LCD board. This is call Memory to Display Address Mapping. Take the image below for example. We want to make the top left corner of the LCD display a yellow square. First, you need to let the LCD knows at where of the RAM are you going to write the data to (using X_start, X_end, Y_start, Y_end value). Then you can start writing the data (color information) to those address of the RAM. (Please refer to the ST7735s datasheet page 59 ~ 66) <br />
 <p align="center">
 <img src="/Image/lcd_ram.png" height="70%" width="70%">
 </p>
 
-### Communication between STM32-Nucleo board and ST7735s LCD <br />
+### 2.3 Communication between STM32-Nucleo board and ST7735s LCD <br />
 
  
