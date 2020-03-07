@@ -196,7 +196,7 @@ Click <b>File</b> --> <b>New Project</b> --> In the search, key in your board mo
 <br />
 The result view will be the following
 <p align="center">
-<img src="/Image/cubemx/CubeMX_pin.JPG" height="100%" width="100%">
+<img src="/Image/cubemx/CubeMX_pin1.JPG" height="100%" width="100%">
 </p>
 <br />
 
@@ -242,7 +242,7 @@ Now we add something in the main.c file so that we can use st7735.c and st7735.h
 # 4. Connect our Hardware
 Please refer to the following image to connect those devices.
 <p align="center">
-<img src="/Image/hardware_connect.png" height="60%" width="60%">
+<img src="/Image/hardware_connect.png" height="100%" width="100%">
 </p>
 <br />
 
