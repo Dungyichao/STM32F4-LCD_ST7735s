@@ -200,11 +200,11 @@ The result view will be the following
 </p>
 <br />
 <p>
-On the top of the panel, click on <b>Project Manager</b>.<br /> 
-  * Enter Project Name. <br /> 
-  * Create a folder and set the Project Location to this folder. <br />For the Toolchain/IDE, select MDK-ARM --> Min Version select V5. <br /> 
-  * In the Code Generator (left panel), click Generate peripheral initialization as a pair of c/h files per peripheral. <br />
-  * On the top of the panel, click on <b>GENERATE CODE</b>.<br /> 
+On the top of the panel, click on <b>Project Manager</b>. 
+  * Enter Project Name.   
+  * Create a folder and set the Project Location to this folder. <br />For the Toolchain/IDE, select MDK-ARM --> Min Version select V5. 
+  * In the Code Generator (left panel), click Generate peripheral initialization as a pair of c/h files per peripheral.  
+  * On the top of the panel, click on <b>GENERATE CODE</b>.  
   * <b>Click Open Project</b>
 </p>
  
