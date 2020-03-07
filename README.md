@@ -68,7 +68,7 @@ Some basic term of SPI and their function are shown in the below table. <br />
 
 
 ### 2.2 &nbsp; ST7735s LCD <br />
-We want to display some string or color on the specific location of the LCD. We can achieve this by sending data to the specific address of RAM (Memory) in the LCD board. This is call Memory to Display Address Mapping. Take the image below for example. We want to make the top left corner of the LCD display a yellow square. First, you need to let the LCD knows at where of the RAM are you going to write the data to (using X_start, X_end, Y_start, Y_end value). Then you can start writing the data (color information) to those address of the RAM. (Please refer to the ST7735s datasheet page 59 ~ 66) <br />
+We want to display some string or color on the specific location of the LCD. We can achieve this by sending data to the specific address of RAM (Memory) in the LCD board. This is call Memory to Display Address Mapping. Take the image below for example. We want to make the top left corner of the LCD display a yellow square. First, you need to let the LCD knows at where of the RAM are you going to write the data to (using X_start, X_end, Y_start, Y_end value). Then you can start writing the data (color information) to those address of the RAM. Then, the specified portion of LCD will change it's color according to the value you wirte into the address in the RAM. (Please refer to the ST7735s datasheet page 59 ~ 66) <br />
 <p align="center">
 <img src="/Image/lcd_ram.png" height="70%" width="70%">
 </p>
