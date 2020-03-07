@@ -30,10 +30,12 @@ A series of Youtube tutorial on STM32-Nucleo is a good start if you never use th
 
 You can think of it as a tiny and simplify PC without monitor(output), keyboard(input), and mouse(input). The LCD acts as output and the Potentiometer acts as input in our tutorial. There is a big problem, how can this tiny PC communicate with the outside world (such as monitor or keyboard)? Some use wired or wireless. <br />
 <p align="center">
+ 
 | Wired/Wireless  | Example |  
 | -------------   |:-------------:|  
 | Wired           | SPI, I2C, UART, Ethernet |  
 | Wireless        | Wi-Fi, Bluetooth, Cellular |   
+
 </p>
 In this tutorial, we will use SPI (Serial Peripheral Interface) to communicate with the output device ~ LCD. We call our Nucleo board as master and the LCD as slave because we are sending order and command to the LCD. Sparkfun has a great tutorial website about SPI ([link](https://learn.sparkfun.com/tutorials/serial-peripheral-interface-spi/all)). The image in the following shows the relationship and connection between master and slave.(image from Sparkfun with some modification to fit our case) <br /> 
 
