@@ -68,7 +68,7 @@ Some basic term of SPI and their function are shown in the below table. <br />
 
 
 ### 2.2 &nbsp; ST7735s LCD <br />
-We want to display some string or color on the specific location of the LCD. We can achieve this by sending data to the specific address of RAM (Memory) in the LCD board. This is call Memory to Display Address Mapping. Take the image below for example. We want to make the top left corner of the LCD display a yellow square. First, you need to let the LCD knows at where of the RAM are you going to write the data to (using X_start, X_end, Y_start, Y_end value). Then you can start writing the data (color information) to those address of the RAM. Then, the specified portion of LCD will change it's color according to the value you wirte into the address in the RAM. (Please refer to the ST7735s datasheet page 59 ~ 66) <br />
+We want to display some string or color on the specific location of the LCD. We can achieve this by sending data to the specific address of RAM (Memory) in the LCD board. This is call Memory to Display Address Mapping. Take the image below for example. We want to make the top left corner of the LCD display a yellow square. First, you need to let the LCD knows at where of the RAM are you going to write the data to (using X_start, X_end, Y_start, Y_end value). Then you can start writing the data (color information) to those address of the RAM. Then, the specified portion of LCD will change it's color according to the value you wirte into the address in the RAM. (Please refer to the ST7735s datasheet page 59 ~ 72) <br />
 <p align="center">
 <img src="/Image/lcd_ram.png" height="70%" width="70%">
 </p>
@@ -149,7 +149,7 @@ We will talk about how to connect these two devices by wires later. Let's see th
         </tr>
         <tr>
             <td align="center">MOSI</td>
-            <td align="left">While sending a command, it's not necessary to send data. How many data right after the command is defined by the command.(Please refer to the ST7735s datasheet page 104 ~ 186) <br /> In our code, our SPI transmit 8-bit data at a time, however, the color in our case is defined in 16-bit, so you need to transfer the first 8 bit of the color and then the rest 8 bit.</td>
+            <td align="left">While sending a command, it's not necessary to send data. How many data right after the command is defined by the command. (Please refer to the ST7735s datasheet page 104 ~ 186) <br /> In our code, our SPI transmit 8-bit data at a time, however, the color in our case is defined in 16-bit, so you need to transfer the first 8 bit of the color and then the rest 8 bit.  (Please refer to the ST7735s datasheet page 44 ~ 58)</td>
         </tr>
         <tr>
             <td align="center">Clock</td>
