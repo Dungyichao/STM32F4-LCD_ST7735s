@@ -111,7 +111,7 @@ The following table shows each pinout and its function. <br />
         </tr>
         <tr>
             <td align="center">RS</td>
-            <td align="left">Data/Command selection. (some LCD board calls it DC or D/C). <br /> When applying high voltage meaning sending data while applying low voltage meaning sending command.</td>
+            <td align="left">Data/Command selection. (some LCD board calls it DC or D/C). <br /> When applying high voltage meaning sending data while <br /> applying low voltage meaning sending command.</td>
         </tr>
         <tr>
             <td align="center">RST</td>
