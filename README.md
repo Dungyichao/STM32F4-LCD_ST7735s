@@ -240,7 +240,11 @@ Now we add something in the main.c file so that we can use st7735.c and st7735.h
 <br />
 
 # 4. Connect our Hardware
-
+Please refer to the following image to connect those devices.
+<p align="center">
+<img src="/Image/hardware_connect.png" height="60%" width="60%">
+</p>
+<br />
 
 
 
