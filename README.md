@@ -196,10 +196,10 @@ Click <b>File</b> --> <b>New Project</b> --> In the search, key in your board mo
 <br />
 You may wonder what pin of SPI should I use (you see we change the pin from the default PA5~7). Actually, ARM Cortex-M4 defined the combination of pins with SPI, I2C, UART. You can check the table from the STM32F411RE User Manual page 47 ~ 52. In the table, you can see we are using the combination of PB3/PB5, that combination also legit. 
 <p align="center">
-<img src="/Image/cubemx/SPI.png" height="70%" width="70%">
+<img src="/Image/cubemx/SPI.png" height="100%" width="100%">
 </p>
 <br />
-The result view will be the following
+Back to the topic, the result view will be the following
 <p align="center">
 <img src="/Image/cubemx/CubeMX_pin1.JPG" height="100%" width="100%">
 </p>
