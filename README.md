@@ -275,6 +275,12 @@ void drawaxes(void){
     ST7735_Drawaxes(AXISCOLOR, BGCOLOR, "Time", "ADC", LIGHTCOLOR, "", 0, YMAX, YMIN);
 }
 ```
+Add the three header on the top of the <b>main.c</b> file
+```c++
+void drawInfoBar(void);
+void drawaxes(void);
+void plotData(void);
+```
 2. In the main function will be like the following
 ```c++
 int main(void)
