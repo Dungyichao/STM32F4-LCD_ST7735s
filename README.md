@@ -1,6 +1,18 @@
 # How to Display Color and Character on LCD Using Microcontroller board
 This tutorial shows you how to display string, color and dynamic value on LCD with STM32-Nucleo development board from ground up. It will also show you how to read the technical datasheet of LCD.<br />
 
+1. [What is the Goal and what you need to have](https://github.com/Dungyichao/STM32F4-LCD_ST7735s#1-what-is-the-goal-and-what-you-need-to-have-)
+	* 1.1 Hardware
+	* 1.2 Documents
+2. [Basic Knowledge](https://github.com/Dungyichao/STM32F4-LCD_ST7735s#2-basic-knowledge-)
+	* 2.1 [STM32-Nucleo board](https://github.com/Dungyichao/STM32F4-LCD_ST7735s#21--stm32-nucleo-board-)
+	* 2.2 [ST7735s LCD](https://github.com/Dungyichao/STM32F4-LCD_ST7735s#22--st7735s-lcd-)
+	* 2.3 [Communication between STM32-Nucleo board and ST7735s LCD](https://github.com/Dungyichao/STM32F4-LCD_ST7735s#23--communication-between-stm32-nucleo-board-and-st7735s-lcd-)
+3. [Configure Pins and Code](https://github.com/Dungyichao/STM32F4-LCD_ST7735s#3-configure-pins-and-code)
+	* 3.1 [Configure Pins on CubeMX](https://github.com/Dungyichao/STM32F4-LCD_ST7735s#3-configure-pins-and-code)
+	* 3.2 [Start Coding](https://github.com/Dungyichao/STM32F4-LCD_ST7735s#32--start-coding)
+
+
 # 1. What is the Goal and what you need to have <br />
 Let's first take a look what are we going to achieve after this tutorial.<br />
 <p align="center">
@@ -10,7 +22,7 @@ Let's first take a look what are we going to achieve after this tutorial.<br />
 
 ### Hardware and Documents you need to have <br />
 
-**1. Hardware**
+**1.1 Hardware**
  * STM32F411RE Nucleo 64
  * ST7735s 1.8" TFT LCD 128 X 160 (SKU:MAR1801)
  * Jumper wires (Male-Male, Male-Female, Female-Female)
@@ -18,7 +30,7 @@ Let's first take a look what are we going to achieve after this tutorial.<br />
  * USB Cable-A to Mini-B
  * Breadboard
  
-**2. Documents**
+**1.2 Documents**
  * STM32F411 User Manual [link](https://www.st.com/resource/en/datasheet/stm32f411re.pdf)
  * Sitronix ST7735s Datasheet [link](http://www.lcdwiki.com/res/MAR1801/ST7735S_V1.1_20111121.pdf)
  
