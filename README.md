@@ -318,6 +318,15 @@ int main(void)
 3. Rebuild the code and download to the board. Try to tune the Potentiometer, and then you will see the green line moving up and down.
 
 # 5. Let's talk about the code <br />
+Before starting to display anything on the LCD, we need to initialize and configure the LCD by sending some command and parameters (data) to the LCD board. This initialization only need to be processed once. After that, we can send data to the LCD with correct protocol.
+### 5.1 &nbsp; Initialization
+
+* 1. Chip Select (CS): Make CS pin low.
+* 2. Reset (RST): Reset pin low --> delay 5~10 ms --> Reset pin high
+* 3. Send command and parameter(data): Command such as Frame rate, inversion, color bit, memory reading order, ....(Please refer to the ST7735s datasheet page 104 ~ 186).
+* 4. Chip un-select (CS): Make CS pin high.
+
+### 5.2 &nbsp; Sending data (color)
 
 # 6. Reference <br />
 
