@@ -275,6 +275,31 @@ void drawaxes(void){
     ST7735_Drawaxes(AXISCOLOR, BGCOLOR, "Time", "ADC", LIGHTCOLOR, "", 0, YMAX, YMIN);
 }
 ```
+2. In the main function will be like the following
+```c++
+int main(void)
+{
+  HAL_Init();
+  SystemClock_Config();
+  MX_GPIO_Init();
+  MX_ADC1_Init();
+  MX_SPI1_Init();
+	
+	ST7735_Init();
+	ST7735_FillScreen(ST7735_BLACK);
+	drawaxes();
+	drawInfoBar();
+	
+  while (1)
+  {
+		HAL_ADC_Start(&hadc1);
+		HAL_ADC_PollForConversion(&hadc1,1);
+		sensorValue = HAL_ADC_GetValue(&hadc1);
+		
+		plotData();		
+  }
 
+}
+```
 
 
