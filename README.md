@@ -350,5 +350,8 @@ Let's make the uper left corner of the LCD become green. In the following sendin
 	
 # 6. Reference <br />
 
+* Udemy course: Build Your Own RealTime OS (RTOS) From Ground Up on ARM 1. Instructor: Israel Gbati
+* Github code: https://github.com/afiskon/stm32-st7735
 
-
+# 7. The End <br />
+The reason of making this tutorial is that the code provided from instructor of the Udemy course is not working at all and the instructor didn't reply to any student at all. I start from knowing nothing about SPI no need to say the LCD board. After 5 days of research, reading documentation, and trial and error, I finally make it works. This tutorial is to guide those people who want to get a deep knowledge of making a driver to display on LCD.
