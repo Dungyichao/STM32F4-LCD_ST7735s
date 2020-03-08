@@ -318,7 +318,7 @@ void drawInfoBar(void);
 void drawaxes(void);
 void plotData(void);
 ```
-2. In the main function will be like the following
+2. In the main function will be like the following. We read the value from the ADC (Analog to Digital Conversion) and this value would change if you tune the potentiometer. The plotData function will take this value and plot it on the LCD. 
 ```c++
 int main(void)
 {
