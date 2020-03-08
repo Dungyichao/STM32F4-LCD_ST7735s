@@ -202,9 +202,9 @@ You may wonder what pin of SPI should I use (you see we change the pin from the 
 <img src="/Image/cubemx/SPI.png" height="100%" width="100%">
 </p>
 <br />
-Back to the topic, the result view will be the following
+Back to the topic, the configuration process and the result view will be the following
 <p align="center">
-<img src="/Image/cubemx/CubeMX_pin1.JPG" height="100%" width="100%">
+<img src="/Image/cubemx/CubeMX_config.gif" height="100%" width="100%">
 </p>
 <br />
 
