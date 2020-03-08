@@ -254,5 +254,27 @@ After you connect these devices, connect USB with the PC and Nucleo-64 board. Yo
 * Click <b>Flash</b> tab --> Download. 
 * Do you see the LCD light become black and a string shows up. Cool !!!
 
+### 4.3 &nbsp; More code and download code to the Nucleo-64
+1. Add the following 3 functions in <b>main.c</b> after the main function
+```c++
+void plotData(void)
+{
+	ST7735_PlotPoint(sensorValue,ST7735_GREEN);
+	ST7735_PlotIncrement();	
+}
+
+void drawInfoBar(void)
+{
+  ST7735_DrawString(1, 0, "CPU =", ST7735_GREEN);
+	ST7735_DrawString(7, 0, "75%", ST7735_BLUE );
+  ST7735_DrawString(11, 0, "Temp =", ST7735_GREEN);
+  ST7735_DrawString(18, 0, "30", ST7735_BLUE );
+}
+
+void drawaxes(void){
+    ST7735_Drawaxes(AXISCOLOR, BGCOLOR, "Time", "ADC", LIGHTCOLOR, "", 0, YMAX, YMIN);
+}
+```
+
 
 
