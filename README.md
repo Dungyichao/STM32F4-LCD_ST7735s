@@ -218,7 +218,8 @@ Before we get started, we need to configure the package. Make sure all the packa
 </p>
 <br />
 
-click <b>Flash</b> tab --> Configure flash tools <br />
+Then, we will configure the dubgger. Nucleo-64 board uses ST-LINK (the upper part of the board which you connect the mini usb to).
+Click <b>Flash</b> tab --> Configure flash tools <br />
 
 * C/C++ tab: check <b>C99 Mode</b>
 * C/C++ tab: Include Paths --> New (Insert) --> click the MDK-ARM folder --> OK
