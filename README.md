@@ -11,6 +11,15 @@ This tutorial shows you how to display string, color and dynamic value on LCD wi
 3. [Configure Pins and Code](https://github.com/Dungyichao/STM32F4-LCD_ST7735s#3-configure-pins-and-code)
 	* 3.1 [Configure Pins on CubeMX](https://github.com/Dungyichao/STM32F4-LCD_ST7735s#3-configure-pins-and-code)
 	* 3.2 [Start Coding](https://github.com/Dungyichao/STM32F4-LCD_ST7735s#32--start-coding)
+4. [Connect Hardware and Download the Code to the Nucleo-64](https://github.com/Dungyichao/STM32F4-LCD_ST7735s#4-connect-hardware-and-download-the-code-to-the-nucleo-64)
+	* 4.1 [Connect hardware](https://github.com/Dungyichao/STM32F4-LCD_ST7735s#41--connect-hardware)
+	* 4.2 [Download code to the Nucleo-64](https://github.com/Dungyichao/STM32F4-LCD_ST7735s#42--download-code-to-the-nucleo-64)
+	* 4.3 [More code and download code to the Nucleo-64](https://github.com/Dungyichao/STM32F4-LCD_ST7735s#43--more-code-and-download-code-to-the-nucleo-64)
+5. [Let's talk about the code](https://github.com/Dungyichao/STM32F4-LCD_ST7735s#5-lets-talk-about-the-code-)
+	* 5.1 [Initialization](https://github.com/Dungyichao/STM32F4-LCD_ST7735s#51--initialization)
+	* 5.2 [Sending data (color)](https://github.com/Dungyichao/STM32F4-LCD_ST7735s#52--sending-data-color)
+6. [Reference](https://github.com/Dungyichao/STM32F4-LCD_ST7735s#6-reference-)
+7. [The End](https://github.com/Dungyichao/STM32F4-LCD_ST7735s#7-the-end-)
 
 
 # 1. What is the Goal and what you need to have <br />
