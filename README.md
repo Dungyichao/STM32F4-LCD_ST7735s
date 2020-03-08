@@ -322,7 +322,7 @@ Before starting to display anything on the LCD, we need to initialize and config
 ### 5.1 &nbsp; Initialization
 
 * 1. Chip Select (CS): Make CS pin low.
-* 2. Reset (RST): Reset pin low --> delay 5~10 ms --> Reset pin high
+* 2. Reset (RST): Reset pin low --> delay 5~9 ms --> Reset pin high (Please refer to the ST7735s datasheet page 85)
 * 3. Send command and parameter(data): Command such as Frame rate, inversion, color bit, memory reading order, ....(Please refer to the ST7735s datasheet page 104 ~ 186).
 * 4. Chip un-select (CS): Make CS pin high.
 
