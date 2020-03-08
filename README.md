@@ -69,7 +69,7 @@ Some basic term of SPI and their function are shown in the below table. <br />
 
 
 ### 2.2 &nbsp; ST7735s LCD <br />
-We want to display some string or color on the specific location of the LCD. We can achieve this by sending data to the specific address of RAM (Memory) in the LCD board. This is call Memory to Display Address Mapping. Take the image below for example. We want to make the top left corner of the LCD display a yellow square. First, you need to let the LCD knows at where of the RAM are you going to write the data to (using X_start, X_end, Y_start, Y_end value). Then you can start writing the data (color information) to those address of the RAM. Then, the specified portion of LCD will change it's color according to the value you wirte into the address in the RAM. (Please refer to the ST7735s datasheet page 59 ~ 72) <br />
+We want to display some string or color on the specific location of the LCD. We can achieve this by sending data to the specific address of RAM (Memory) in the LCD board. This is call <b>Memory to Display Address Mapping</b>. Take the image below for example. We want to make the top left corner of the LCD display a yellow square. First, you need to let the LCD knows at where of the RAM are you going to write the data to (using X_start, X_end, Y_start, Y_end value). Then you can start writing the data (color information) to those address of the RAM. Then, the specified portion of LCD will change it's color according to the value you wirte into the address in the RAM. (Please refer to the ST7735s datasheet page 59 ~ 72) <br />
 <p align="center">
 <img src="/Image/lcd_ram.png" height="70%" width="70%">
 </p>
@@ -327,7 +327,27 @@ Before starting to display anything on the LCD, we need to initialize and config
 * 4. Chip un-select (CS): Make CS pin high.
 
 ### 5.2 &nbsp; Sending data (color)
+Let's make the uper left corner of the LCD become green. In the following sending command as well as sending data, we all communicate via SPI. Remember that before sending data, we need to set the RS (Data or command) pin high. We set the RS pin low before sending command. 
 
+* 1. Chip Select (CS): Make CS pin low.
+* 2. Memory to Display Address Mapping:
+	* Send command to perform Column address set
+	* Send data: X_start (first 8 bit start from the most significant bit)
+	* Send data: X_start (rest of the bit)
+	* Send data: X_end (first 8 bit start from the most significant bit)
+	* Send data: X_end (rest of the bit)
+	* Send command to perform Row address set
+	* Send data: Y_start (first 8 bit start from the most significant bit)
+	* Send data: Y_start (rest of the bit)
+	* Send data: Y_end (first 8 bit start from the most significant bit)
+	* Send data: Y_end (rest of the bit)
+	* Send command to perform writting to RAM
+* 3. Send the color data (16-bit data for each color)
+	* Send data: color (first 8 bit start from the most significant bit)
+	* Send data: color (rest of the bit)
+* 4. Chip un-select (CS): Make CS pin high.
+	
+	
 # 6. Reference <br />
 
 
