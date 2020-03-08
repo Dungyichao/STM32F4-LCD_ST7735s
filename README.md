@@ -212,7 +212,13 @@ On the top of the panel, click on <b>Project Manager</b>.
 Now the keil uvision IDE would open up itself with you project in it. 
 
 ### 3.2 &nbsp; Start Coding
-Before we get started, click <b>Flash</b> tab --> Configure flash tools <br />
+Before we get started, we need to configure the package. Make sure all the package are installed and up to date shown in the following image
+<p align="center">
+<img src="/Image/cubemx/package.png" height="100%" width="100%">
+</p>
+<br />
+
+click <b>Flash</b> tab --> Configure flash tools <br />
 
 * C/C++ tab: check <b>C99 Mode</b>
 * C/C++ tab: Include Paths --> New (Insert) --> click the MDK-ARM folder --> OK
