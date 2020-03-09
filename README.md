@@ -218,18 +218,8 @@ Click <b>File</b> --> <b>New Project</b> --> In the search, key in your board mo
 </table>
 </p>
 <br />
-You may wonder what pin of SPI should I use (you see we change the pin from the default PA5~7). Actually, ARM Cortex-M4 defined the combination of pins with SPI, I2C, UART. You can check the table from the STM32F411RE User Manual page 47 ~ 52. In the table, you can see we are using the combination of PB3/PB5, that combination also legit. 
-<p align="center">
-<img src="/Image/cubemx/SPI.png" height="100%" width="100%">
-</p>
-<br />
-Back to the topic, the configuration process and the result view will be the following
-<p align="center">
-<img src="/Image/cubemx/CubeMX_config.gif" height="100%" width="100%">
-</p>
-<br />
 
-On the top of the panel, click on <b>Project Manager</b>. 
+The configuration process and the result view will be the following. On the top of the panel, click on <b>Project Manager</b>. 
 
   * Enter Project Name.   
   * Create a folder and set the Project Location to this folder. <br />For the Toolchain/IDE, select MDK-ARM --> Min Version select V5. 
@@ -239,6 +229,17 @@ On the top of the panel, click on <b>Project Manager</b>.
 
 <br />
 Now the keil uvision IDE would open up itself with you project in it. 
+<br />
+<p align="center">
+<img src="/Image/cubemx/CubeMX_config.gif" height="100%" width="100%">
+</p>
+<br />
+
+You may wonder what pin of SPI should I use (you see we change the pin from the default PA5~7). Actually, ARM Cortex-M4 defined the combination of pins with SPI, I2C, UART. You can check the table from the STM32F411RE User Manual page 47 ~ 52. In the table, you can see we are using the combination of PB3/PB5, that combination also legit. 
+<p align="center">
+<img src="/Image/cubemx/SPI.png" height="100%" width="100%">
+</p>
+<br />
 
 ### 3.2 &nbsp; Start Coding
 Before we get started, we need to configure the package. Make sure all the package are installed and up to date shown in the following image
