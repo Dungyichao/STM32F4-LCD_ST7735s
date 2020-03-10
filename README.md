@@ -51,7 +51,7 @@ You are ready to go!! <br />
 <p align="center">
 <img src="/Image/stm32f411re_board.JPG" height="70%" width="70%">  
 </p>
-A series of Youtube tutorial on STM32-Nucleo is a good start if you never use this [link](https://youtu.be/FAv0LO5E2TM)   
+A series of Youtube tutorial on STM32-Nucleo is a good start if you never use this [link](https://youtu.be/FAv0LO5E2TM) 
 
 You can think of it as a tiny and simplify PC without monitor(output), keyboard(input), and mouse(input). The LCD acts as output and the Potentiometer acts as input in our tutorial. There is a big problem, how can this tiny PC communicate with the outside world (such as monitor or keyboard)? Some use wired or wireless. <br />
 
