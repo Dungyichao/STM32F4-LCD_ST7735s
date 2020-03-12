@@ -2,7 +2,7 @@
 This tutorial shows you how to display string, color and dynamic value on LCD with STM32-Nucleo development board from ground up. It will also show you how to read the technical datasheet of LCD.<br />
 
 1. [What is the Goal and what you need to have](https://github.com/Dungyichao/STM32F4-LCD_ST7735s#1-what-is-the-goal-and-what-you-need-to-have-)
-	* 1.1 Hardware
+	* 1.1 [Hardware](https://github.com/Dungyichao/STM32F4-LCD_ST7735s/blob/master/README.md#hardware-and-documents-you-need-to-have-)
 	* 1.2 Documents
 2. [Basic Knowledge](https://github.com/Dungyichao/STM32F4-LCD_ST7735s#2-basic-knowledge-)
 	* 2.1 [STM32-Nucleo board](https://github.com/Dungyichao/STM32F4-LCD_ST7735s#21--stm32-nucleo-board-)
