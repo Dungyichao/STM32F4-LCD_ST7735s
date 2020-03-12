@@ -3,7 +3,7 @@ This tutorial shows you how to display string, color and dynamic value on LCD wi
 
 1. [What is the Goal and what you need to have](https://github.com/Dungyichao/STM32F4-LCD_ST7735s#1-what-is-the-goal-and-what-you-need-to-have-)
 	* 1.1 [Hardware](https://github.com/Dungyichao/STM32F4-LCD_ST7735s/blob/master/README.md#hardware-and-documents-you-need-to-have-)
-	* 1.2 Documents
+	* 1.2 [Documents](https://github.com/Dungyichao/STM32F4-LCD_ST7735s/blob/master/README.md#hardware-and-documents-you-need-to-have-)
 2. [Basic Knowledge](https://github.com/Dungyichao/STM32F4-LCD_ST7735s#2-basic-knowledge-)
 	* 2.1 [STM32-Nucleo board](https://github.com/Dungyichao/STM32F4-LCD_ST7735s#21--stm32-nucleo-board-)
 	* 2.2 [ST7735s LCD](https://github.com/Dungyichao/STM32F4-LCD_ST7735s#22--st7735s-lcd-)
