@@ -1,5 +1,5 @@
 # How to Display Color and Character on LCD Using Microcontroller board
-This tutorial shows you how to display string, color and dynamic value on LCD with STM32-Nucleo development board from ground up. It will also show you how to read the technical datasheet of LCD.<br />
+This tutorial shows you how to display string, color and dynamic value on LCD with STM32-Nucleo development board from ground up. It will also show you how to read the technical datasheet of LCD. If you are interested in more advance topic of RTOS from scratch, please go to  [Real-Time Operating Systems](https://github.com/Dungyichao/PeriodicScheduler_Semaphore) tutorial. <br />
 
 1. [What is the Goal and what you need to have](https://github.com/Dungyichao/STM32F4-LCD_ST7735s#1-what-is-the-goal-and-what-you-need-to-have-)
 	* 1.1 [Hardware](https://github.com/Dungyichao/STM32F4-LCD_ST7735s/blob/master/README.md#hardware-and-documents-you-need-to-have-)
